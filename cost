@@ -1,0 +1,11 @@
+local scriptUrl = ({
+				[9848789324] = "https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua",
+				[2788229376] = "https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua",
+				[606849621]  = "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua",
+				[5602055394] = "https://raw.githubusercontent.com/SoftVortex/405/main/Coast",
+				[8982709021] = "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua",
+			})[game.PlaceId]
+	
+			if scriptUrl then
+				loadstring(game:HttpGet(scriptUrl))()
+			end
